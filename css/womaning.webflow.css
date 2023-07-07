@@ -10211,6 +10211,10 @@ figure {
     margin-left: -15px;
   }
 
+  .cookie-popup {
+    display: block;
+  }
+
   .section-copy {
     padding-top: 130px;
     padding-bottom: 130px;
