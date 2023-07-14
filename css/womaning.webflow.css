@@ -10215,7 +10215,7 @@ figure {
     margin-left: -15px;
   }
 
-  .cookie-popup {
+  .cookie-popup, .wii-modal-wrapper {
     display: block;
   }
 
