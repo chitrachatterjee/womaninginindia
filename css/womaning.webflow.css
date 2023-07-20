@@ -9329,6 +9329,42 @@ figure {
   align-self: stretch;
 }
 
+.wii-banner-email-form {
+  display: none;
+}
+
+.text-field-copy {
+  width: 600px;
+  height: 54px;
+  color: #141414;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(83, 87, 86, .3);
+  border-radius: 10px;
+  margin-bottom: 0;
+  padding: 16px 20px;
+  font-size: 18px;
+}
+
+.text-field-copy:focus {
+  border-color: #387975;
+}
+
+.text-field-copy::-ms-input-placeholder {
+  color: #535756;
+}
+
+.text-field-copy::placeholder {
+  color: #535756;
+}
+
+.text-field-copy.course {
+  width: 250px;
+}
+
+.text-field-copy.mb-10 {
+  margin-bottom: 10px;
+}
+
 @media screen and (min-width: 1280px) {
   .section {
     padding-top: 130px;
@@ -10621,6 +10657,10 @@ figure {
 
   .link-block-8 {
     text-decoration: none;
+  }
+
+  .text-field-copy.course {
+    width: 300px;
   }
 }
 
@@ -12867,6 +12907,14 @@ figure {
     align-items: center;
     margin-top: 0;
   }
+
+  .text-field-copy {
+    width: auto;
+  }
+
+  .text-field-copy.course {
+    width: 300px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -14944,6 +14992,15 @@ figure {
 
   .link-block-8, .link-block-8.w--current {
     text-decoration: none;
+  }
+
+  .text-field-copy {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .text-field-copy.course {
+    width: 100%;
   }
 }
 
