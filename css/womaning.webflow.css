@@ -7206,6 +7206,7 @@ figure {
 
 .blogs-img {
   width: 100%;
+  object-fit: contain;
   background-color: rgba(83, 87, 86, .2);
   border: 2px solid #fff;
   border-radius: 12px;
@@ -8793,6 +8794,8 @@ figure {
 }
 
 .merch-img {
+  width: 100%;
+  object-fit: contain;
   background-color: rgba(0, 0, 0, 0);
   border: 2px solid #fff;
   border-radius: 12px;
