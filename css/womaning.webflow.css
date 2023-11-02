@@ -10743,7 +10743,7 @@ figure {
     background-color: #fff;
     position: fixed;
     top: 15%;
-    bottom: 10%;
+    bottom: 5%;
     left: 20%;
     right: 20%;
   }
@@ -10931,6 +10931,10 @@ figure {
   .wii-content-banner-home-1 {
     top: -60px;
   }
+
+  .white-box-centre {
+    bottom: 5%;
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -11109,6 +11113,10 @@ figure {
 
   .wii-content-banner-home-1 {
     top: -40px;
+  }
+
+  .white-box-centre {
+    bottom: 5%;
   }
 }
 
